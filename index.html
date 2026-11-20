@@ -143,6 +143,12 @@ section.game{padding:96px 0 40px}
 .video video{display:block;width:100%;height:100%;object-fit:cover}
 .video .lbl{position:absolute;top:14px;left:14px;z-index:2;font-size:11px;letter-spacing:.2em;padding:4px 10px;border-radius:999px;background:rgba(10,15,30,.7);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px)}
 .video.land{aspect-ratio:16/9;margin:0 0 36px}
+.story{margin:44px 0 8px}
+.story h3{font-size:clamp(20px,2.6vw,28px);line-height:1.4;margin:0 0 8px;font-weight:900}
+.story p{color:var(--dim);margin:0 0 18px;max-width:46em}
+.story a.video{display:block;max-width:820px;margin:0}
+.story a.video img{display:block;width:100%;height:100%;object-fit:cover}
+.story a.video:after{content:"";position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:rgba(10,15,30,.72) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M9 6.5v11l9-5.500z'/%3E%3C/svg%3E") center/46px no-repeat;border:1px solid rgba(255,255,255,.35)}
 .showcase{display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start}
 .showcase .video{aspect-ratio:9/19.5;border-radius:30px;border-width:6px;border-color:#1e2846}
 .showcase .strip.port>*{width:min(230px,56vw)}
@@ -371,6 +377,16 @@ footer a:hover{color:#fff}
         <div class="glow-img"><img src="assets/gsm_09_history.webp" alt="記録" loading="lazy"></div>
         <div class="glow-img"><img src="assets/gsm_10_chill.webp" alt="ゆっくり" loading="lazy"></div>
       </div>
+    </div>
+
+    <div class="story">
+      <p class="hint pix" data-en="STORY VIDEO · YOUTUBE">STORY VIDEO · YOUTUBE</p>
+      <h3 data-en="Runner-up in eight majors. He never won one.">メジャー2位が8回。一度も勝てなかった男の31年</h3>
+      <p data-en="A 14-year-old who shot 103 in his first summer turned pro at 19 and reached world No. 4 — but a major title never came. A 10-minute story built from the records of a golfer who actually grew up in the game (Japanese narration).">最初の夏に 103 を叩いた 14 歳の少年が、19 歳でプロになり、世界ランク 4 位まで上りつめる。それでもメジャーの優勝だけが来なかった。ゲームの中で実際に育った選手の記録をもとにした、10 分の物語です。</p>
+      <a class="video land glow-img" href="https://youtu.be/HLuqYbIaJLE" target="_blank" rel="noopener" aria-label="YouTube で見る">
+        <span class="lbl pix" data-en="WATCH ON YOUTUBE · 10 MIN">YOUTUBE で見る · 10 分</span>
+        <img src="assets/gsm_story_001.webp" alt="メジャー2位が8回。一度も勝てなかった男の31年" loading="lazy" width="1280" height="720">
+      </a>
     </div>
 
     <div class="chars" aria-hidden="true">
