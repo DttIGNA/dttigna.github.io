@@ -27,7 +27,7 @@
 {"@context":"https://schema.org","@graph":[
  {"@type":"Organization","@id":"https://dttigna.github.io/#org","name":"NokoNokoLab","url":"https://dttigna.github.io/","logo":"https://dttigna.github.io/assets/icon_baseball.png","description":"個人で開発しているスマートフォン向け育成シミュレーションゲームのスタジオ","sameAs":["https://note.com/ripe_viper255","https://apps.apple.com/jp/app/id6790614262","https://apps.apple.com/jp/app/id6818499829"]},
  {"@type":"WebSite","@id":"https://dttigna.github.io/#site","url":"https://dttigna.github.io/","name":"NokoNokoLab","inLanguage":["ja","en"],"publisher":{"@id":"https://dttigna.github.io/#org"}},
- {"@type":"VideoGame","name":"ドット野球部 高校野球シミュレーション","alternateName":["ドット高校野球","Pixel Baseball Club"],"url":"https://dttigna.github.io/#baseball","image":"https://dttigna.github.io/assets/icon_baseball.png","description":"高校野球の監督として練習・スカウト・大会を1週ずつ進め、全国3,008校の頂点を目指す育成シミュレーション。","genre":["Simulation","Sports","Management"],"gamePlatform":"iOS","applicationCategory":"GameApplication","operatingSystem":"iOS","inLanguage":["ja","en"],"author":{"@id":"https://dttigna.github.io/#org"},"publisher":{"@id":"https://dttigna.github.io/#org"},"installUrl":"https://apps.apple.com/jp/app/id6790614262","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY","availability":"https://schema.org/InStock"},"trailer":{"@type":"VideoObject","name":"ドット野球部 プレイ動画","description":"試合・練習・スカウト・月刊誌などのプレイ映像（30秒）","thumbnailUrl":"https://dttigna.github.io/assets/bb_play_poster.jpg","contentUrl":"https://dttigna.github.io/assets/bb_play.mp4","uploadDate":"2026-11-01","duration":"PT30S"}},
+ {"@type":"VideoGame","name":"ドット野球部 高校野球シミュレーション","alternateName":["ドット高校野球","Pixel Baseball Club"],"url":"https://dttigna.github.io/#baseball","image":"https://dttigna.github.io/assets/icon_baseball.png","description":"高校野球の監督として練習・スカウト・大会を1週ずつ進め、試合では配球を読んで采配をふるい、全国3,008校の頂点を目指す育成シミュレーション。","genre":["Simulation","Sports","Management"],"gamePlatform":"iOS","applicationCategory":"GameApplication","operatingSystem":"iOS","inLanguage":["ja","en"],"author":{"@id":"https://dttigna.github.io/#org"},"publisher":{"@id":"https://dttigna.github.io/#org"},"installUrl":"https://apps.apple.com/jp/app/id6790614262","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY","availability":"https://schema.org/InStock"},"trailer":{"@type":"VideoObject","name":"ドット野球部 プレイ動画","description":"試合・練習・スカウト・月刊誌などのプレイ映像（30秒）","thumbnailUrl":"https://dttigna.github.io/assets/bb_play_poster.jpg","contentUrl":"https://dttigna.github.io/assets/bb_play.mp4","uploadDate":"2026-11-01","duration":"PT30S"}},
  {"@type":"VideoGame","name":"Golf School Manager","alternateName":["プロゴルファーを育てよう"],"url":"https://dttigna.github.io/#golf","image":"https://dttigna.github.io/assets/icon_golf.png","description":"小さなゴルフスクールから始めて、選手を育て、世界へ送り出し、その子どもが次の世代へ。世代を継ぐゴルフ育成シミュレーション。","genre":["Simulation","Sports","Management"],"gamePlatform":"iOS","applicationCategory":"GameApplication","operatingSystem":"iOS","inLanguage":["ja","en"],"author":{"@id":"https://dttigna.github.io/#org"},"publisher":{"@id":"https://dttigna.github.io/#org"},"installUrl":"https://apps.apple.com/jp/app/id6818499829","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY","availability":"https://schema.org/InStock"},"trailer":{"@type":"VideoObject","name":"Golf School Manager プレイ動画","description":"App Store プレビュー映像（30秒）","thumbnailUrl":"https://dttigna.github.io/assets/gsm_play_poster.jpg","contentUrl":"https://dttigna.github.io/assets/gsm_play_ja.mp4","uploadDate":"2026-10-03","duration":"PT30S"}}
 ]}
 </script>
@@ -143,12 +143,6 @@ section.game{padding:96px 0 40px}
 .video video{display:block;width:100%;height:100%;object-fit:cover}
 .video .lbl{position:absolute;top:14px;left:14px;z-index:2;font-size:11px;letter-spacing:.2em;padding:4px 10px;border-radius:999px;background:rgba(10,15,30,.7);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px)}
 .video.land{aspect-ratio:16/9;margin:0 0 36px}
-.story{margin:44px 0 8px}
-.story h3{font-size:clamp(20px,2.6vw,28px);line-height:1.4;margin:0 0 8px;font-weight:900}
-.story p{color:var(--dim);margin:0 0 18px;max-width:46em}
-.story a.video{display:block;max-width:820px;margin:0}
-.story a.video img{display:block;width:100%;height:100%;object-fit:cover}
-.story a.video:after{content:"";position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:rgba(10,15,30,.72) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M9 6.5v11l9-5.500z'/%3E%3C/svg%3E") center/46px no-repeat;border:1px solid rgba(255,255,255,.35)}
 .showcase{display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start}
 .showcase .video{aspect-ratio:9/19.5;border-radius:30px;border-width:6px;border-color:#1e2846}
 .showcase .strip.port>*{width:min(230px,56vw)}
@@ -288,7 +282,7 @@ footer a:hover{color:#fff}
     <div class="intro">
       <div>
         <h3 data-en="Take a nameless school to the national stage.">あなたの母校を、甲子園へ。</h3>
-        <p data-en="You are the manager. Set practice each week, scout middle-schoolers, and fight through 3,008 schools across all 47 prefectures. Players grow, graduate, and get drafted; three-year stories become magazine articles.">監督として練習・スカウト・大会を 1 週ずつ進め、全国 47 都道府県・3,008 校の頂点を目指します。選手は育ち、卒業し、プロへ。3 年間のドラマは月刊誌の記事になります。</p>
+        <p data-en="You are the manager. Set practice each week, scout middle-schoolers, and fight through 3,008 schools across all 47 prefectures. In games, read the opposing pitcher and call the strategy. Players grow, graduate, and get drafted; three-year stories become magazine articles.">監督として練習・スカウト・大会を 1 週ずつ進め、全国 47 都道府県・3,008 校の頂点を目指します。試合では相手の配球を読んで作戦を選びます。選手は育ち、卒業し、プロへ。3 年間のドラマは月刊誌の記事になります。</p>
         <div class="cta">
           <a href="https://apps.apple.com/jp/app/id6790614262" target="_blank" rel="noopener"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp" alt="App Store からダウンロード"></a>
           <small data-en="iPhone · Japanese / English">iPhone 対応 · 日本語 / 英語</small>
@@ -296,9 +290,11 @@ footer a:hover{color:#fff}
       </div>
       <ul class="feat">
         <li class="glow"><b data-en="Live pixel-art games">試合はドット絵で動く</b><span data-en="Pitch, swing, throw and slide — every play is animated. Design your own uniform colors and stripes.">投球・スイング・送球・スライディングまで全プレーがアニメ。ユニフォームの色や柄も自分で設定。</span></li>
-        <li class="glow"><b data-en="3,008 schools, one tournament">全国 3,008 校の大会</b><span data-en="Prefectural, regional and national brackets with real scouting reports on rival aces.">地区→県→地方→全国。ライバル校の注目選手まで展望できる。</span></li>
+        <li class="glow"><b data-en="Call the strategy mid-game">試合中に采配をふるう</b><span data-en="After the 3rd, 6th and 8th innings you get a report on pitch locations and pick a strategy. A good read turns the game.">3・6・8 回の終わりに配球の傾向を見て作戦を選ぶ。読みが当たれば流れが変わる。選手もひとこと返してくれる。</span></li>
+        <li class="glow"><b data-en="Hot and cold zones">得意コース・苦手コース</b><span data-en="Every player has strengths and weaknesses inside, outside, high and low — and keeps developing after hitting the ability cap.">選手ごとに内角・外角・高め・低めの得意と苦手。能力が上限に届いたあとも育成が続く。</span></li>
+        <li class="glow"><b data-en="3,008 schools, one tournament">全国 3,008 校の大会</b><span data-en="Prefectural, regional and national brackets with scouting reports on rival aces, and an opening ceremony at the nationals.">地区→県→地方→全国。ライバル校の注目選手まで展望でき、全国大会では開会式の入場行進も。</span></li>
         <li class="glow"><b data-en="Chemistry & school voices">ケミストリーと校内の声</b><span data-en="Lineup conditions unlock hidden boosts; teachers, parents and clubs react to your season.">打順の条件で発動する隠れた効果。先生・保護者・他部活がシーズンに反応する。</span></li>
-        <li class="glow"><b data-en="Weekly online league">オンライン週次リーグ</b><span data-en="Register your team and play other managers' schools every week.">自分のチームを登録して、毎週ほかの監督のチームと対戦。</span></li>
+        <li class="glow"><b data-en="Daily online national tournament">オンラインは毎日が全国大会</b><span data-en="Register your team and face other managers' schools in a tournament held every day, with rankings and all-time records.">自分のチームを登録して、毎日ひらかれる全国大会でほかの監督のチームと対戦。ランキングや歴代記録も。</span></li>
       </ul>
     </div>
 
@@ -317,8 +313,11 @@ footer a:hover{color:#fff}
 
     <p class="hint pix" style="margin-top:26px" data-en="SCREENS · SWIPE →">SCREENS · 横にスクロール →</p>
     <div class="strip land">
-      <div class="glow-img"><img src="assets/bb_01_home.webp" alt="ホーム" loading="lazy"></div>
+      <div class="glow-img"><img src="assets/bb_10_run.webp" alt="ホーム：練習前のランニング" loading="lazy"></div>
       <div class="glow-img"><img src="assets/bb_04_game.webp" alt="試合" loading="lazy"></div>
+      <div class="glow-img"><img src="assets/bb_08_saihai.webp" alt="試合中の采配" loading="lazy"></div>
+      <div class="glow-img"><img src="assets/bb_09_zone.webp" alt="選手詳細とコース適性" loading="lazy"></div>
+      <div class="glow-img"><img src="assets/bb_01_home.webp" alt="ホーム" loading="lazy"></div>
       <div class="glow-img"><img src="assets/bb_03_member.webp" alt="メンバー" loading="lazy"></div>
       <div class="glow-img"><img src="assets/bb_05_schools.webp" alt="全国の高校" loading="lazy"></div>
       <div class="glow-img"><img src="assets/bb_07_manager.webp" alt="マネージャー" loading="lazy"></div>
@@ -379,16 +378,6 @@ footer a:hover{color:#fff}
       </div>
     </div>
 
-    <div class="story">
-      <p class="hint pix" data-en="STORY VIDEO · YOUTUBE">STORY VIDEO · YOUTUBE</p>
-      <h3 data-en="Runner-up in eight majors. He never won one.">メジャー2位が8回。一度も勝てなかった男の31年</h3>
-      <p data-en="A 14-year-old who shot 103 in his first summer turned pro at 19 and reached world No. 4 — but a major title never came. A 10-minute story built from the records of a golfer who actually grew up in the game (Japanese narration).">最初の夏に 103 を叩いた 14 歳の少年が、19 歳でプロになり、世界ランク 4 位まで上りつめる。それでもメジャーの優勝だけが来なかった。ゲームの中で実際に育った選手の記録をもとにした、10 分の物語です。</p>
-      <a class="video land glow-img" href="https://youtu.be/HLuqYbIaJLE" target="_blank" rel="noopener" aria-label="YouTube で見る">
-        <span class="lbl pix" data-en="WATCH ON YOUTUBE · 10 MIN">YOUTUBE で見る · 10 分</span>
-        <img src="assets/gsm_story_001.webp" alt="メジャー2位が8回。一度も勝てなかった男の31年" loading="lazy" width="1280" height="720">
-      </a>
-    </div>
-
     <div class="chars" aria-hidden="true">
       <img class="px" src="assets/gsm_char_5.png" alt="">
       <img class="px" src="assets/gsm_char_1.png" alt="">
@@ -433,6 +422,7 @@ footer a:hover{color:#fff}
       <span class="eyebrow pix">ABOUT</span>
       <h2>NokoNokoLab</h2>
       <p data-en="A one-person studio based in Japan. Both games are drawn in a fixed 32-color pixel palette and built around the same idea: the fun is not in winning once, but in watching people grow over years.">日本在住の個人開発スタジオです。どちらのゲームも 32 色の固定パレットで描いたドット絵と、「一度勝つことより、何年もかけて人が育つのを見届ける」楽しさを軸に作っています。</p>
+      <p data-en="Both games are updated regularly based on player feedback. Pixel Baseball Club 1.8 (November 2026) added mid-game strategy calls, hot and cold zones, and the national tournament opening ceremony.">いただいた感想やレビューをもとに、どちらも継続してアップデートしています。ドット野球部は 2026 年 11 月の 1.8 で、試合中の采配・コース適性・全国大会の開会式を追加しました。</p>
       <p data-en="Collab and media inquiries: <a href=&quot;mailto:nokonokolab1224@gmail.com&quot;>nokonokolab1224@gmail.com</a>. Support, bug reports and the privacy policy are on note.">コラボ・取材のご相談は <a href="mailto:nokonokolab1224@gmail.com">nokonokolab1224@gmail.com</a> へ。ゲームのお問い合わせ・不具合のご報告・プライバシーポリシーは note に掲載しています。</p>
       <div class="links">
         <a class="btn pri glow" href="https://note.com/ripe_viper255/n/n5610f3cdbdc1" target="_blank" rel="noopener" data-en="Support &amp; Privacy Policy (note)">お問い合わせ・プライバシーポリシー（note）</a>
